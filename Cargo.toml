@@ -1,0 +1,10 @@
+[package]
+name = "pytomlrs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.19.*", features = [ "extension-module" ] }
+serde = "1.0.*"
+toml = { version = "0.7.6", features = [ "parse" ] }
+
